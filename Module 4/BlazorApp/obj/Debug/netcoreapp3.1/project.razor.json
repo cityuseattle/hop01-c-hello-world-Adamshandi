@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/BlazorApp.csproj",
+  "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/BlazorApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -11,6 +11,39 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
+      {
+        "HashCode": -1835610002,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.App",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.App"
+        }
+      },
+      {
+        "HashCode": 1897609892,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.App",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
       {
         "HashCode": -878829506,
         "Kind": "Components.Component",
@@ -131,35 +164,35 @@
         }
       },
       {
-        "HashCode": -1835610002,
+        "HashCode": -223867316,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
+        "Name": "BlazorApp.Pages.Todo",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.App"
+          "Common.TypeName": "BlazorApp.Pages.Todo"
         }
       },
       {
-        "HashCode": 1897609892,
+        "HashCode": 2085401687,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
+        "Name": "BlazorApp.Pages.Todo",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.App"
+            "TagName": "BlazorApp.Pages.Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.App",
+          "Common.TypeName": "BlazorApp.Pages.Todo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14726,53 +14759,58 @@
   "RootNamespace": "BlazorApp",
   "Documents": [
     {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Pages/Counter.razor",
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Pages/_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Pages/Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Pages/Index.razor",
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 3/BlazorApp/Shared/NavMenu.razor",
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Pages/_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/adamshandi/Desktop/GRAD_SCHOOL/CS504-Software-engineering/handson/hop01-c-hello-world-Adamshandi/Module 4/BlazorApp/App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     }
   ],

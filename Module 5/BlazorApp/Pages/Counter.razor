@@ -1,0 +1,47 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">IncrementCount</button>
+<button class="btn btn-danger" @onclick="DecrementCount">DecrementCount</button>
+@* <label for="getInput">Enter a number?</label>
+<input type="text" value="" name="input" id="inputUser" @onkeypress="Submit">
+ *@
+
+ <div class="row">
+     <div class="col-lg-12" style="margin: 3rem;">
+         @CurrentValue
+            <input type="text" @bind="@CurrentValue" @oninput="@((e) => {CurrentValue=(string)e.Value;})" />
+            @* <label for="">You entered: @CurrentValue</label> *@
+     </div>
+ </div>
+
+
+@code {
+    private int currentCount = 0;
+    private int userInput=0;
+
+     private string CurrentValue {get;set;} = "";
+
+    [Parameter]
+    public int IncrementAmount{get; set; }=1;
+    public int DecrementAmount{get; set;}=1;
+
+    private void IncrementCount()
+    {
+        currentCount+=IncrementAmount;
+    }
+
+    private void DecrementCount()
+    {
+        @* userInput=input.Value; *@
+        currentCount-=Int32.Parse(this.CurrentValue);
+    }
+protected void Submit()
+{
+
+    Console.WriteLine(this.CurrentValue);
+}
+}
